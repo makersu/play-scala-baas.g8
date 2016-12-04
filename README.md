@@ -6,8 +6,8 @@ Generate a new project using [giter8](https://github.com/foundweekends/giter8) o
 ```
 # sbt new makersu/playback-scala.g8
 
-# g8 makersu/playback-scala.g8 --name=my-playback-scala
-g8 makersu/playback-scala.g8
-cd playback-scala
+# g8 makersu/playback-scala.g8 
+g8 makersu/playback-scala.g8 --name=my-playback-scala
+cd my-playback-scala
 sbt run
 ```

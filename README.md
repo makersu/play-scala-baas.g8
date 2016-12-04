@@ -11,3 +11,4 @@ g8 makersu/playback-scala.g8 --name=my-playback-scala
 cd my-playback-scala
 sbt run
 ```
+### [Wiki](https://github.com/makersu/playback-scala.g8/wiki)

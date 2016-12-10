@@ -10,5 +10,11 @@ Generate a new project using [giter8](https://github.com/foundweekends/giter8) o
 g8 makersu/playback-scala.g8 
 cd playback-scala
 sbt run
+
+# run with docker
+sbt docker:publishLocal 
+docker run -it -p 9000:9000 playback-scala:1.0.0-SNAPSHOT
 ```
+
+
 ### [Wiki](https://github.com/makersu/playback-scala.g8/wiki)

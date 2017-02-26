@@ -8,7 +8,7 @@ lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
 scalaVersion := "$scala_version$"
 
-// using Alpine Linux image with OracleJDK 8
+// dockerize using Alpine Linux image with OracleJDK 8
 dockerBaseImage := "frolvlad/alpine-oraclejdk8"
 
 // install bash is right after the FROM command

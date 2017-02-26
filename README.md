@@ -7,14 +7,18 @@ Generate a new project using [giter8](https://github.com/foundweekends/giter8) o
 # install giter8
 brew update && brew install giter8
 
-# create new build definitions from the template
+# testing templates locally
+git clone git@github.com:makersu/playback-scala.g8.git
+sbt new file://playback-scala.g8
+
+# create new build definitions from the template on github
 sbt new makersu/playback-scala.g8
 cd playback-scala
 sbt run
 
 # run with docker
 sbt docker:publishLocal
-docker run -it -p 9000:9000 playback-scala:1.0.0-SNAPSHOT
+docker run -it -p 9000:9000 playback-scala:1.0-SNAPSHOT
 ```
 
 

@@ -1,6 +1,6 @@
-name := "playback-scala.g8" 
+name := "play-scala-baas.g8"
 
-version := "1.0.0-SNAPSHOT"
+version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
